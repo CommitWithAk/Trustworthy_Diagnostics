@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Dataset - do not upload medical images
+dataset/
+*.zip
+
+# Trained models - can be very large
+models/
+*.keras
+*.h5
+*.weights.h5
+
+# Generated outputs
+outputs/
+reports/
+
+# IDE and environment
+.vscode/
+.env
+.DS_Store
+
+# Logs
+*.log
+.git-backup/
